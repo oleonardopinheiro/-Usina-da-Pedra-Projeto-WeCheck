@@ -1,15 +1,15 @@
 {
     "DATABASE": {
-        "USER": "dwintegracao",
-        "PASSWORD": "integracao!Pedr@2022",
-        "DSN": "oradw",
-        "CLIENT": "O:\\prod\\ora19",
-        "TNS": "TNS_ADMIN",
+        "USER": "USERBANCO",
+        "PASSWORD": "SENHABANCO",
+        "DSN": "DSNDOBANCO",
+        "CLIENT": "DIRETORIO ONDE FICA O CLIENT DO ORACLE",
+        "TNS": "TNSDOBANCO",
         "ENVIRON": "O:\\prod\\admin"
     },
     "API": {
-        "URL": "http://usinadapedra.wecheckapp.com.br/api/v1/external/answers?deleted_at=null&status=done&page=",
-        "AUTH": "Bearer 391c7a96-5464-4fe7-a285-1f10251fc166"
+        "URL": "URL DA API, FINAL "PAGE=",
+        "AUTH": "TOKEN API"
 
 
     }
