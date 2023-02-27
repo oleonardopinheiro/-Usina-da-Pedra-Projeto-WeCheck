@@ -1,7 +1,7 @@
 # Usina da Pedra - Projeto WeCheck
-Projeto de Checklist do PULO, onde participo e ajudo na organização, estruturação e criação do projeto, usamos a plataforma WeCheck.
+Projeto de Checklists, onde participo e ajudo na organização, estruturação e criação do projeto, usamos a plataforma WeCheck.
 
-<b> PASSOS PARA O DESENVOLVIMENTO DO PROJETO PULO - WECHECK <br>
+<b> PASSOS PARA O DESENVOLVIMENTO DO PROJETO WECHECK <br>
   
   VERSÃO 1.0
   
@@ -15,6 +15,7 @@ Projeto de Checklist do PULO, onde participo e ajudo na organização, estrutura
   Criação do WeCheck<br>
   1° Passo para Integração via API usando Python (Excell)<br>
   2° Passo para Integração via API usando Python conexão com Banco de Dados Oracle<br>
+  Normalização de colunas e tratamentos de retornos usando dataframes via Python<br>
   Graficos para melhor análise de qualidade usando Tableau<br>
   
     
