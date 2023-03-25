@@ -2,21 +2,21 @@
     "APP": {
         "ENVIRONMENT": "TEST",
         "DEBUG": false,
-        "HOST": "oratbc.uspedra.com.br"        
+        "HOST": "host"        
     },
 
         "DATABASE": {
         "DIALECT": "oracle",
         "SQL_DRIVER": "cx_oracle",
-        "USERNAME": "dwintegracao",
-        "PASSWORD": "integracao!Pedr@2022",
-        "DSN": "oradw",
-        "PORT": 1521
+        "USERNAME": "user",
+        "PASSWORD": "senha",
+        "DSN": "DSN",
+        "PORT": 0000
     },
 
     "API": {
-        "URL": "http://usinadapedra.wecheckapp.com.br/api/v1/external/answers?formulary_group_id=f2eafbd6-5563-407e-b482-6784f5c80d94&deleted_at=null&status=done&page=",
-        "AUTH": "Bearer 391c7a96-5464-4fe7-a285-1f10251fc166"
+        "URL": "api + page=",
+        "AUTH": "BEARER TOKEN"
     },
     "SQL": {
         "CAMINHO": "./sql/",
