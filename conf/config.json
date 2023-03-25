@@ -1,16 +1,26 @@
 {
-    "DATABASE": {
-        "USER": "USERBANCO",
-        "PASSWORD": "SENHABANCO",
-        "DSN": "DSNDOBANCO",
-        "CLIENT": "DIRETORIO ONDE FICA O CLIENT DO ORACLE",
-        "TNS": "TNSDOBANCO",
-        "ENVIRON": "O:\\prod\\admin"
+    "APP": {
+        "ENVIRONMENT": "TEST",
+        "DEBUG": false,
+        "HOST": "oratbc.uspedra.com.br"        
     },
+
+        "DATABASE": {
+        "DIALECT": "oracle",
+        "SQL_DRIVER": "cx_oracle",
+        "USERNAME": "dwintegracao",
+        "PASSWORD": "integracao!Pedr@2022",
+        "DSN": "oradw",
+        "PORT": 1521
+    },
+
     "API": {
-        "URL": "URL DA API, FINAL "PAGE=",
-        "AUTH": "TOKEN API"
-
-
+        "URL": "http://usinadapedra.wecheckapp.com.br/api/v1/external/answers?formulary_group_id=f2eafbd6-5563-407e-b482-6784f5c80d94&deleted_at=null&status=done&page=",
+        "AUTH": "Bearer 391c7a96-5464-4fe7-a285-1f10251fc166"
+    },
+    "SQL": {
+        "CAMINHO": "./sql/",
+        "WECK_IDRESPOSTA": "weck_idresposta.sql",
+        "WECK_DADOENTRADA": "weck_dadoentrada.sql"
     }
 }
